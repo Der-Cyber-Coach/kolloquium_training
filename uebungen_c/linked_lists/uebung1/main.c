@@ -5,7 +5,10 @@ int test(int a);
 int main(void)
 
 {
-    for(int i =0; i <= 199;i++)
+    int max,i;
+    printf("Geben Sie eine Ganzzahl ein: \n");
+    scanf("%d",&max);
+    for(i=0;i <= max;i++)
     {
     printf("%d\n",test(i));
     };
